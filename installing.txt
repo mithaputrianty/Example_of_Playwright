@@ -1,0 +1,27 @@
+source: https://playwright.dev/docs/intro
+
+1. create new project
+2. run this script: npm init playwright@latest
+=== ===
+for running the test
+    npx playwright test
+for html test reports
+    npx playwright show-report
+for running in UI mode
+    npx playwright test --ui
+for running in headed mode
+    npx playwright test --headed
+for running in specific browser
+    npx playwright test --project chrome
+
+=== ===
+Getting started with Cucumber & Playwright
+1. Nodejs (ver 12 or higher)
+2. Cucumber: npm i @cucumber/cucumber
+3. Create feature and step definition file
+4. Run this script: npx cucumber-js test-gherkin/features/fileFeatureName.feature
+    --> berhasil di running dengan catatan semua file berada dalam 1 folder
+
+source:
+- https://medium.com/@manabie/how-to-use-playwright-in-cucumberjs-f8ee5b89bccc
+- https://www.linkedin.com/pulse/testautomationplaywright-cucumber-setup-sagar-tripathi/
